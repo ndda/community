@@ -4,7 +4,7 @@ public class GithubUser {
 
 
 
-    private String login;
+    private String name;
     private Long id;
     private String bio;
 
@@ -17,12 +17,12 @@ public class GithubUser {
 
 
 
-    public String getLogin() {
-        return login;
+    public String getName() {
+        return name;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Long getId() {
